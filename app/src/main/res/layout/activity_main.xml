@@ -22,13 +22,11 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:src="@drawable/pink_button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:onClick="onClick"
-        android:src="@drawable/plus_icon"
-        app:backgroundTint="@android:color/holo_blue_light"
-        app:elevation="6dp"
-        app:pressedTranslationZ="12dp" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
    
